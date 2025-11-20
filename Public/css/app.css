@@ -16,3 +16,17 @@ nav{
 .link a{
     text-decoration: none;
 }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about{
+    display: flex;
+}
+.left h1 {
+    color: rgba(6, 6, 178, 0.982);  
+}
+.left button {
+    background-color: red;
+    color: white;
+    border: none;
+}
