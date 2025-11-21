@@ -44,7 +44,7 @@ nav>button{
 }
 .part1{
     align-items: center;
-    padding: 40vh 8vw;     
+    padding: 4vh 8vw;     
 }
 /* .part1>div{
     display: flex;
@@ -137,39 +137,60 @@ body{
     transition: 1s;
     
     
-}
-   nav .link a{
-    color: hsl(233, 26%, 24%);
-    font-weight: 700;
-} 
-  .menuBtns .fa-bars{
-    display: block;
-}
-#menu:checked ~ .link{
-    left: 5vw;
-}
-#menu:checked ~ .menuBtns > label > .fa-bars{
-    display: none;
-}
-#menu:checked ~ .menuBtns > label >.fa-xmark{
-    display: block;
-}  
-    nav button{
-        display: none;
-    }
-    .sect1{
-        flex-direction: column;
-        height: auto;
-        padding: 0;
-
-    }
-    .part1, .img{
-        width: 100%;
-        height: auto;
-    }
-    .img img{
-        width: 100%;
-    }
+        }
+        nav{
+            width: 500px;
+            justify-content: space-between;
+        }
+        nav .link a{
+            color: hsl(233, 26%, 24%);
+            font-weight: 700;
+        } 
+        .menuBtns .fa-bars{
+            display: block;
+        }
+        #menu:checked ~ .link{
+            left: 5vw;
+        }
+        #menu:checked ~ .menuBtns > label > .fa-bars{
+            display: none;
+        }
+        #menu:checked ~ .menuBtns > label >.fa-xmark{
+            display: block;
+        }  
+            nav button{
+                display: none;
+            }
+            footer{
+                width: 500px;
+            }
+            .sect1{
+                flex-direction: column;
+                height: auto;
+                padding: 0;
+                /* height: 300px; */
+            }
+            .part1, .img{
+                width: 100%;
+                height: auto;
+            }
+            .img img{
+                width: 100%;
+            }
+            .left{
+                width: 100%;
+                font-size: initial;
+                padding-bottom: 19px;
+            }
+            .about{
+                display: block;
+                /* position: absolute; */
+                padding: 4vh 4vw;
+            }
+            .about>.card{
+                width: 100%;
+                margin-bottom: 30px;
+            }
 
 }
 .contact {
