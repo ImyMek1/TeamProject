@@ -56,3 +56,44 @@ body{
     font-size: large;
     color: gray;
 }
+.contact {
+    padding: 2vh 8vw;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+.contact h1 {
+    color: #314584;
+}
+.contact>div>p {
+    color: #ff3946;
+}
+.contact>form{
+    display: flex;
+    justify-content: center;
+    gap: 2vh;
+    flex-wrap: wrap;
+}
+.main_btn{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 2vh 2vw;
+    border-radius: 50px;  
+}
+form>input {
+    grid-area: "input";
+    width: calc((100% / 2) - 10px);
+    padding: 2vh 0;
+    background-color: #f4fafe;
+    border: none;
+    
+}
+form>textarea {
+    grid-area: "textarea";
+    width: 100%;
+    padding: 2vh 0;
+    background-color: #f4fafe;
+    border: none;
+    
+}
