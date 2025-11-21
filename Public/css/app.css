@@ -124,54 +124,6 @@ body{
     display: none;
 }
 
-@media (max-width:500px){
-    nav .link{
-    position: absolute;
-    background-color: white;
-    flex-direction: column;
-    width: 80%;
-    top: 15vh;
-    left: -100%;
-    padding: 20px 0;
-    border-radius: 20px;
-    transition: 1s;
-    
-    
-}
-   nav .link a{
-    color: hsl(233, 26%, 24%);
-    font-weight: 700;
-} 
-  .menuBtns .fa-bars{
-    display: block;
-}
-#menu:checked ~ .link{
-    left: 5vw;
-}
-#menu:checked ~ .menuBtns > label > .fa-bars{
-    display: none;
-}
-#menu:checked ~ .menuBtns > label >.fa-xmark{
-    display: block;
-}  
-    nav button{
-        display: none;
-    }
-    .sect1{
-        flex-direction: column;
-        height: auto;
-        padding: 0;
-
-    }
-    .part1, .img{
-        width: 100%;
-        height: auto;
-    }
-    .img img{
-        width: 100%;
-    }
-
-}
 .contact {
     padding: 2vh 8vw;
     display: flex;
@@ -222,6 +174,7 @@ textarea::placeholder {
   font-weight: bold;
   opacity: 1; 
 }
+
 footer {
     background-color: #314584;
     padding: 4vh 8vw;
@@ -246,4 +199,53 @@ footer > nav > a {
 .socials {
     display: flex;
     gap: 2vw;
+}
+
+@media (max-width:500px){
+    nav .link{
+    position: absolute;
+    background-color: white;
+    flex-direction: column;
+    width: 80%;
+    top: 15vh;
+    left: -100%;
+    padding: 20px 0;
+    border-radius: 20px;
+    transition: 1s;
+    
+    
+}
+   nav .link a{
+    color: hsl(233, 26%, 24%);
+    font-weight: 700;
+} 
+  .menuBtns .fa-bars{
+    display: block;
+}
+#menu:checked ~ .link{
+    left: 5vw;
+}
+#menu:checked ~ .menuBtns > label > .fa-bars{
+    display: none;
+}
+#menu:checked ~ .menuBtns > label >.fa-xmark{
+    display: block;
+}  
+    nav button{
+        display: none;
+    }
+    .sect1{
+        flex-direction: column;
+        height: auto;
+        padding: 0;
+
+    }
+    .part1, .img{
+        width: 100%;
+        height: auto;
+    }
+    .img img{
+        width: 100%;
+    }
+
 }
